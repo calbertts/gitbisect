@@ -1,3 +1,6 @@
+/*
+ * Someone was trying to create better docs .. LOL
+ */
 
 // do something with 2 numbers
 module.exports.doSomething = function(a, b) {
