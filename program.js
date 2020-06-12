@@ -6,4 +6,5 @@ module.exports.doSomething = function(a, b) {
 
 /* A comment in this method */
 module.exports.doNothing = function(a, b) {
+  // I have no sense
 };
