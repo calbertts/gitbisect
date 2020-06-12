@@ -16,3 +16,7 @@ module.exports.doSomethingV2 = function(a, b) {
   // The original one is deprecated, I'm the good one
   return a + b;
 };
+
+module.exports.thisShouldBeInAnotherModule = function() {
+  // A very large function
+}
