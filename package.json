@@ -1,0 +1,17 @@
+{
+  "name": "git-bisect",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon --max-old-space-size=500 globals.mjs",
+    "start-graph": "node --max-old-space-size=1000 globals.mjs | TERM=vt100 ttyplot -s 100 -m 300 -t 'memory used MB' -u 'MB'",
+    "loadtest": "ab -k -c 100 -n 10000 http://localhost:3000/"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "typescript": "^4.6.3"
+  }
+}
